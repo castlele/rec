@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-  <uses-permission android:name="android.permission.CAMERA"/>
-
-  <uses-feature
-    android:name="android.hardware.camera.ar"
-    android:required="true" />
-  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
-  <uses-feature
-    android:name="android.hardware.camera"
-    android:required="false" />
 
   <application
     android:allowBackup="false"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
-
-    <meta-data
-      android:name="com.google.ar.core"
-      android:value="required" />
 
     <activity
       android:name=".MainActivity"
@@ -27,13 +14,6 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-
-    <meta-data android:name="com.google.ar.core" android:value="required" />
-
-    <!-- Enable use of unsigned ARCore APKs and disable Play Store submission. -->
-    <meta-data
-      android:name="com.google.ar.core.disable_security_check"
-      android:value="true" />
 
   </application>
 
