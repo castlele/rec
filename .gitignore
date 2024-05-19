@@ -8,3 +8,11 @@ captures
 .cxx
 local.properties
 xcuserdata
+
+docs/
+
+rec-android-app/samples
+
+# Kotlin Language Server
+
+kls_database.db
