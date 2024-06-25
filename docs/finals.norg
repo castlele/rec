@@ -1,0 +1,46 @@
+=REC
+real estate cadastre
+=end
+
+|SOURCES:
+[Duties of a cadastral engineer]{https://geomergroup.ru/article/kadastrovyj-inzhener/}
+[Technical plan]{https://www.youtube.com/watch?v=RJ4y5cPQtHg}
+[Technical Building Plan]{https://geomergroup.ru/article/poluchenie-tehplana/} %Технический план здания%
+
+* PLAN
+  - the process of &REC&
+  - where in the process AR can be used?
+  - *description of the application for &REC& usage*
+
+  ___
+
+* Application Usage Flow
+  ~ Stand in the middle of the room
+  ~ Scan the rooms iteratively
+  ~ Internally save rooms' metadata
+
+  ___
+
+* Learn to Implement
+  ~ (-) AR framework for measuring spatial data
+
+* Application Technical Requirements
+** Must Have
+   ~ ( ) automatic rooms' scanning
+   ~ ( ) two anchor points
+   ~ ( ) manual rooms' "measurer"
+   ~ ( ) convert rooms' data to plain image
+   ~ ( ) download image
+   ~ ( ) export rooms' data
+   ~ ( ) import rooms' data
+
+** Nice to Have
+   ~ ( ) add floor data
+   ~ ( ) add non automatic (at least some) data to the image
+   ~ ( ) get downloadable 3D model of the room
+   ~ ( ) place 3D model of the rooms
+
+* Report
+  - min amount of pages is 60 without applications
+  - min 15 sources
+
